@@ -77,6 +77,10 @@ nav ul li{
     width: 80vw;
 }
 
+.songItemContainer{
+    margin-top: 34px;
+}
+
 .songItem{
     height: 50px;
     display: flex;
