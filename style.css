@@ -98,3 +98,7 @@ nav ul li{
 .timestamp{
     margin: 0 23px;
 }
+
+.timestamp i{
+    cursor: pointer;
+}
