@@ -48,6 +48,8 @@ nav ul li{
     width: 70%;
     border-radius: 12px;
     padding: 34px;
+    background-image: url(bg.jpg);
+    background-size: 750px 600px;
 }
 
 .bottom{
@@ -67,6 +69,7 @@ nav ul li{
 }
 
 .icons i{
+    margin-top: 15px;
     cursor: pointer;
 }
 
