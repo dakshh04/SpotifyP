@@ -20,6 +20,14 @@ let songs = [
 masterPlay.addEventListener('click', ()=>{
     if(audioElement.paused || audioElement.currentTime<=0){
         audioElement.play();
+        masterPlay.classList.remove('fa-circle-play');
+        masterPlay.classList.add('fa-circle-pause');
+    }
+    else{
+        audioElement.pause();
+        masterPlay.classList.remove('fa-circle-pause');
+        masterPlay.classList.add('fa-circle-play');
+        
     }
 })
 
