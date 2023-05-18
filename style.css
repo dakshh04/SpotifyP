@@ -1,6 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Ubuntu&family=Varela+Round&display=swap');
 
+
 body{
     background-color: antiquewhite;
 }
@@ -40,6 +41,7 @@ nav ul li{
 }
 
 .container{
+    font-family: 'Varela Round', sans-serif;
     min-height: 70vh;
     background-color: black;
     color: white;
@@ -110,6 +112,7 @@ nav ul li{
 .songInfo{
     position: absolute;
     left: 10vw;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .songInfo img{
