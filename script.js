@@ -7,7 +7,6 @@ let myProgressBar = document.getElementById('myProgressBar');
 let gif = document.getElementById('gif');
 let songItem = Array.from(document.getElementsByClassName('songItem'));
 
-
 let songs = [
     {songName: "Heroes Tonight ", filePath: "songs/1.mp3", coverPath: "covers/1.jpg"},
     {songName: "Heroes Tonight ", filePath: "songs/2.mp3", coverPath: "covers/2.jpg"},
